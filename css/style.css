@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+}
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 400px;
+    border-radius: 15px;
+}
+.katte {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-top: 550px;
+    gap: 40px;
+}
+
+
+ul {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
